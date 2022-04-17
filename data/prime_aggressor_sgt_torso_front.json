@@ -1,0 +1,12 @@
+{
+  "partName": "Aggressor Sergeant Torso Front",
+  "dimensions": {
+    "partHeight": 6.2,
+    "partWidth": 4.8,
+    "partLength": 2.6
+  },
+  "partNotes": "This is a test part and measurements are inaccurate!!",
+  "partParentKit": "Primaris Aggressor",
+  "partMeasurementMethod": "Height measured from top of neck collar to bottom of belly creases",
+  "tags": ["fake", "testing", "alpha", "gw", "prime"]
+}

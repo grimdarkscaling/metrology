@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grimdarkscaling.com/schemas/prime_marine_part.schema.json",
+  "title": "Part",
+  "description": "A Part from a Space Marine Prime Kit",
+  "type": "object",
+  "properties": {
+    "partName": {
+      "description": "A short description name for a kit part",
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "partHeight": {
+          "description": "Height in millimeters for the part",
+          "type": "number"
+        },
+        "partWidth": {
+          "description": "Width in millimeters for the part",
+          "type": "number"
+        },
+        "partLength": {
+          "description": "Length in millimeters for the part",
+          "type": "number"
+        }
+      }
+    },
+    "partNotes": {
+      "description": "Additional context on the part measurements",
+      "type": "string"
+    },
+    "partParentKit": {
+      "description": "Name of Manufacturer's Kit containing the part",
+      "type": "string"
+    },
+    "partMeasurementMethod": {
+      "description": "Detailed information on how the measurement was taken. Measuring Tools used, elements used as referece (e.g. 'width measured from arm socket to arm socket')",
+      "type": "string"
+    },
+    "tags": {
+      "description": "list of tags for ease of searching and filtering",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}
