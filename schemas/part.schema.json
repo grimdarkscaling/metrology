@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://grimdarkscaling.com/schemas/prime_marine_part.schema.json",
+  "$id": "https://grimdarkscaling.com/schemas/part.schema.json",
   "title": "Part",
-  "description": "A Part from a Space Marine Prime Kit",
+  "description": "A Part from a Wargaming miniature kit",
   "type": "object",
   "properties": {
     "partName": {
