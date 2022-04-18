@@ -23,9 +23,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
-
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.8
+      - name: Install python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Check for valid JSON
         run: scripts/check_json.sh data
-
       - name: Validate JSON objects against schema
         run: scripts/check_valid_objects.sh
