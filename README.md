@@ -24,5 +24,5 @@ A full, commented, [json-schema](https://json-schema.org/) compatible schema is 
     }
 
 ## Merge Policy
-- Open a pull request and tag [u/itsgc](u/itsgc).
+- Open a pull request and tag [itsgc](https://github.com/itsgc) as reviewer.
 - Wait for PR validation steps to go green.
